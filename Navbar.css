@@ -1,0 +1,57 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family:fantasy;
+    color: darkgreen;
+}
+span{
+    color: #ffffff;
+}
+nav{
+    background: #0082e6;
+    height: 50px;
+    width: 100%;
+}
+ul{
+    width: auto;
+    float: right;
+    margin-right: 8px;
+}
+li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding: 2px 5px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px ;
+}
+a:hover{
+    color: slategray;
+    transition: 200ms;
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+    height: 100%;
+}

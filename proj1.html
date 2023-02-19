@@ -7,46 +7,52 @@
     <title>Form</title>
     <link href="proj1.css" rel="stylesheet">
     <link href="reva.jpg" rel="icon">
-    
 </head>
-<body>
+<header>
     <div class="reg">
-        <span><u>Registration Form</u></span>
-        <div id="desc">This section contains the description of the event for which we will be registering</div>
+        <img src="cc.png" alt="" style="width: 100px; height: 56px; align-self: flex-starts; justify-self: left; position: relative;">
     </div>
+</header>
+<body>
+    <div id="desc">This section contains the description of the event for which you will register</div>
+    <br>
     <div class="info">
-    <form action="https://script.google.com/macros/s/AKfycbyB2cf0yJ8RJQVJHcLm0NLvsxZMeESM62CNJVsrGTT1BIG8S0CfyZlO3BOvbzMLuk4LgA/exec" method="post">
-        <label for="name"><b>Name</b></label>
-        <br>
-        <input type="text" id="name" name="name" required placeholder="Name">
-        <br><br>
-        <label for="email"><b>Email ID</b></label>
-        <br>
-        <input type="email" id="email" name="email" required placeholder="Email Id">
-        <br><br>
-        <label for="sem"><b>Semester</b></label>
-        <br>
-        <select id="sem" name="sem" required>
-        <option>N/A</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>6</option>
-        </select>
-        <br><br>
-        <label for="sec"><b>Section</b></label>
-        <br>
-        <input type="text" id="sec" name="sec" required placeholder="Section">
-        <br><br>
-        <label for="tran"><b>Transaction ID</b></label>
-        <br>
-        <input type="text" id="tran" name="tran" required placeholder="Transaction ID">
-        <br><br>
-        <input type="submit" value="Submit" >
-          
-    </form>
+        <div class="bgg">
+            <form action="">
+                <label for="name"><b>Name</b></label>
+                <br>
+                <input type="text" id="name" name="name" required placeholder="Name">
+                <br><br>
+                <label for="email"><b>Email ID</b></label>
+                <br>
+                <input type="email" id="email" email="email" required placeholder="Email Id">
+                <br><br>
+                <label for="sem"><b>Semester</b></label>
+                <br>
+                <select id="sem" name="sem" required>
+                <option>N/A</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                </select>
+                <br><br>
+                <label for="sec"><b>Section</b></label>
+                <br>
+                <input type="text" id="sec" name="sec" required placeholder="Section">
+                <br><br>
+                <label for="tran"><b>Transaction ID</b></label>
+                <br>
+                <input type="text" id="tran" name="tran" required placeholder="Transaction ID">
+                <br><br>
+                <!-- <label for="files"><b>Upload your resume</b></label>
+                <br><input type="file" id="files" name="files"> -->
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
     </div>
 </body>
 </html>

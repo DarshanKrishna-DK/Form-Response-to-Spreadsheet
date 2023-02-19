@@ -3,22 +3,141 @@
     /* padding-top: 0.3px; */
 }
 .reg{
-    background-color:rgba(241, 137, 227, 0.46);
-    height: 60px;
-    text-align: center;
+    background:linear-gradient(rgb(53, 53, 53, 0.884),rgb(53,53,53,0.04));
+    height: 80px;
+    text-align: left;
+    padding-left: 20px;
     padding-top: 10px;
     text-transform: uppercase;
-    border: 2.5px solid black;
-    text-decoration-color: rgb(0, 0, 0);
-    -webkit-text-fill-color: rgb(0, 0, 0);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-color: rgb(255, 255, 255);
+    color: aliceblue;
 }
 #desc{
     text-transform:none;
-    padding-top: 15px;
-    -webkit-text-fill-color:rgb(0, 0, 0) ;
+    height: 60px;
+    padding-top: 25px;
+    -webkit-text-fill-color:black ;
+    margin: 0px;
+    align-items:center;
+    background-color: rgb(61, 61, 61, 0.04);
+    font-size: large;
 
 }
 
+.h1{
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-size: 32px;
+    color: rgb(16, 77, 126);
+    text-shadow: black 1px 1px;
+    font-weight: lighter;
+    font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    box-shadow: none;
+    -webkit-text-fill-color:rgb(16, 77, 126) ;
+}
+
 body{
-    background-color: rgba(152, 216, 246, 0.6);
+    background: url(https://wonderfulengineering.com/wp-content/uploads/2014/09/white-wallpapers-8.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    overflow: auto;
+    background-size: cover;
+    background-attachment: fixed ;
+    -webkit-text-fill-color:steelblue ;
+}
+span{
+    color: whitesmoke;
+}
+
+a{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    background:linear-gradient(rgb(255, 255, 255),rgb(83, 83, 82));
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    border-radius: 20%;
+    transition: border-radius 200ms;
+    transition: transform 200ms;
+    box-shadow: 5px 7px 9px black;
+    font-weight: bold;
+}
+
+a:hover{
+    background:linear-gradient(45deg ,royalblue,mediumturquoise);
+    padding: 6px;
+    border: skyblue solid;
+    color: black;
+    border-radius: 1%;
+    transform: scale(1.5);
+    text-transform: uppercase;
+    transition: 200ms;
+}
+
+header{
+    margin: 0%;
+    width: 100%;
+    height: 70px;
+    background:linear-gradient(Black,transparent);
+    font-weight: bolder;
+}
+.info{
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-top: 20px;
+    background: opacity 20%;
+
+    margin: auto;
+    align-items:center;
+}
+
+select{
+    color: black;
+    background-color:steelblue;
+    -webkit-text-fill-color:black ;
+}
+select:hover{
+    color: black;
+    background-color: transparent;
+    -webkit-text-fill-color:black ;
+}
+input{
+    color: steelblue;
+    background-color:azure;
+    font-family: cursive;
+}
+input:hover{
+    color: black;
+    background-color: lightblue;
+}
+textarea:hover{
+    background-color:lightblue;
+    color: black;
+}
+textarea{
+    color: steelblue;
+    background-color:azure;
+    font-family: cursive;
+}
+.bgg{
+    padding: 10px;
+    margin: 2px;
+    background-color: rgb(61, 61, 61, 0.24);
+    backface-visibility: visible;
+    height: 400px;
+    border: black solid;
+}
+label{
+    background-color:rgb(61, 61, 61, 0.24) ;
+    color: black;
+    -webkit-text-fill-color:black ;
+    padding: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
